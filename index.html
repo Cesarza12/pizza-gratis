@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pizza Reyes - La mejor pizza a domicilio en León, Nicaragua. Pizzas recién horneadas con entrega rápida. ¡Ordena por WhatsApp!">
+    <meta name="keywords" content="pizza, domicilio, León Nicaragua, pepperoni, hawaiana, pizza delivery">
+    <title>Pizza Reyes | Pizzería a Domicilio en León</title>
+    <link rel="stylesheet" href="styles.css" type="" title="">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-pizza-slice"></i>
+                Pizza Reyes
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#menu" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">
+                    <i class=""></i> Ordenar
+                </a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Pizza <span>Reyes</span></h1>
+            <p class="hero-subtitle">Pizzería a domicilio en León</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>3.6 (5 opiniones)</span>
+            </div>
+            <div class="hero-buttons">
+               <!-- <a href="#menu" 
+                   class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Ordenar por WhatsApp
+                </a>-->
+                <a href="#menu" class="btn btn-secondary">
+                    <i class="fas fa-utensils"></i>
+                    Ver menú
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" 
+                         alt="Pizza recién horneada Pizza Reyes">
+                </div>
+                <div class="about-content fade-in">
+                    <h2>Sobre Nosotros</h2>
+                    <p>En Pizza Reyes llevamos años deleitando a los leoneses con las pizzas más deliciosas de la ciudad. 
+                       Nos especializamos en llevar hasta tu puerta el auténtico sabor italiano con un toque nicaragüense.</p>
+                    <p>Cada pizza es preparada al momento con ingredientes frescos y de la más alta calidad, 
+                       horneada en nuestro horno de leña para lograr esa textura crujiente perfecta.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Entrega Rápida</h3>
+                                <p>Llegamos en 30-45 minutos</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Recién Horneada</h3>
+                                <p>Preparada al momento</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Atención Local</h3>
+                                <p>Conocemos León</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Pedidos por WhatsApp</h3>
+                                <p>Fácil y rápido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title fade-in">Nuestro Menú</h2>
+            <p class="section-subtitle fade-in">Las favoritas de nuestros clientes</p>
+            
+            <div class="menu-grid">
+                <!-- Pizza Pepperoni -->
+                <div class="menu-card fade-in">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=600&q=80" 
+                             alt="Pizza Pepperoni">
+                        <span class="menu-badge">Más Popular</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Pizza Pepperoni</h3>
+                            <span class="price">C$280</span>
+                        </div>
+                        <p>Generosas rodajas de pepperoni sobre salsa de tomate y queso mozzarella derretido.</p>
+                        <button class="btn-order" onclick="orderPizza(
+'Pepperoni',
+'Generosas rodajas de pepperoni sobre salsa de tomate y queso mozzarella derretido.',
+'C$280'
+)">
+                            <i class="fab fa-whatsapp"></i>
+                            Pedir ahora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Pizza Suprema -->
+                <div class="menu-card fade-in">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80" 
+                             alt="Pizza Suprema">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Pizza Suprema</h3>
+                            <span class="price">C$350</span>
+                        </div>
+                        <p>Pepperoni, jamón, champiñones, pimientos, cebolla y aceitunas negras.</p>
+                        <button class="btn-order" onclick="orderPizza(
+'Suprema',
+'Pepperoni, jamón, champiñones, pimientos, cebolla y aceitunas negras.',
+'C$350'
+)">
+                            <i class="fab fa-whatsapp"></i>
+                            Pedir ahora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Pizza Hawaiana -->
+                <div class="menu-card fade-in">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80" 
+                             alt="Pizza Hawaiana">
+                        <span class="menu-badge">Especialidad</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Pizza Hawaiana</h3>
+                            <span class="price">C$320</span>
+                        </div>
+                        <p>Jamón premium y piña fresca sobre nuestra salsa especial y queso mozzarella.</p>
+                        <button class="btn-order" onclick="orderPizza(
+'Hawaiana',
+'Jamón premium y piña fresca sobre nuestra salsa especial y queso mozzarella.',
+'C$320'
+)">
+                            <i class="fab fa-whatsapp"></i>
+                            Pedir ahora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Pizza de Queso -->
+                <div class="menu-card fade-in">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80" 
+                             alt="Pizza de Queso">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Pizza de Queso</h3>
+                            <span class="price">C$250</span>
+                        </div>
+                        <p>Triple queso mozzarella, parmesano y queso cheddar. Para los amantes del queso.</p>
+                        <button class="btn-order" onclick="orderPizza(
+'Queso',
+'Triple queso mozzarella, parmesano y queso cheddar.',
+'C$250'
+)">
+                            <i class="fab fa-whatsapp"></i>
+                            Pedir ahora
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="hours">
+        <div class="container">
+            <h2 class="section-title fade-in">Horarios de Atención</h2>
+            <div class="hours-container fade-in">
+                <div class="hours-grid">
+                    <div class="hours-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Apertura</h3>
+                        <p>5:00 AM</p>
+                    </div>
+                    <div class="hours-item">
+                        <i class="fas fa-moon"></i>
+                        <h3>Cierre</h3>
+                        <p>10:00 PM</p>
+                    </div>
+                </div>
+                <div class="status-badge">
+                    <i class="fas fa-circle"></i>
+                    Abierto ahora
+                </div>
+                <p style="margin-top: 1.5rem; opacity: 0.9;">
+                    <i class="fas fa-info-circle"></i> 
+                    Atendemos todos los días de la semana
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="ubicacion">
+        <div class="container">
+            <h2 class="section-title fade-in">Ubicación</h2>
+            <p class="section-subtitle fade-in">Visítanos o pide a domicilio</p>
+            
+            <div class="location-grid">
+                <div class="location-info fade-in">
+                    <h3>Encuéntranos en León</h3>
+                    
+                    <div class="location-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>1ra Calle NO<br>León, Nicaragua</p>
+                        </div>
+                    </div>
+
+                    <div class="location-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefono o whatsapp</h4>
+                            <p>+505 XXXX XXXX</p>
+                        </div>
+                    </div>
+
+                    <div class="location-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@pizzareyes.com</p>
+                        </div>
+                    </div>
+
+                    <div class="location-item">
+                        <i class="fas fa-motorcycle"></i>
+                        <div>
+                            <h4>Servicio a Domicilio</h4>
+                            <p>Cobertura en toda León y alrededores</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-container fade-in">
+
+    <iframe
+        src="https://www.google.com/maps?q=Pizza+Reyes+León+Nicaragua&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0; border-radius:15px;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+         <div class="reviews-grid">
+                <!-- Formulario de Opiniones -->
+<div class="review-form-container fade-in">
+
+    <h3 class="review-form-title">
+        <i class="fas fa-comment-dots"></i>
+        Comparte tu experiencia
+    </h3>
+
+    <div class="star-rating" id="starRating">
+        <i class="far fa-star" data-value="1"></i>
+        <i class="far fa-star" data-value="2"></i>
+        <i class="far fa-star" data-value="3"></i>
+        <i class="far fa-star" data-value="4"></i>
+        <i class="far fa-star" data-value="5"></i>
+    </div>
+
+    <input type="text" id="reviewName" placeholder="Tu nombre">
+
+    <textarea id="reviewComment" placeholder="Deje su comentario"></textarea>
+
+    <button class="submit-review-btn" onclick="submitReview()">
+        <i class="fas fa-paper-plane"></i>
+        Enviar
+    </button>
+</div>
+
+<!-- Opiniones -->
+<div class="reviews-grid" id="reviewsGrid">
+
+    <div class="review-card fade-in">
+        <div class="review-header">
+            <span class="reviewer-name">Carlos Martínez</span>
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <p class="review-text">
+            "Excelente pizza, llegó caliente y muy rápida. La pepperoni es mi favorita."
+        </p>
+
+        <div class="review-date">Hace 2 semanas</div>
+    </div>
+
+    <div class="review-card fade-in">
+        <div class="review-header">
+            <span class="reviewer-name">María González</span>
+
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <p class="review-text">
+            "Muy buena atención por WhatsApp. Recomendado."
+        </p>
+
+        <div class="review-date">Hace 1 mes</div>
+    </div>
+
+</div>
+        </div>
+    </section>
+            </div>
+
+           
+
+    <!-- CTA Section -->
+    <section class="cta" id="contacto">
+        <div class="cta-content">
+            <h2>¿Listo para ordenar?</h2>
+            <p>No esperes más. Tu pizza favorita está a un clic de distancia.</p>
+            <a href="#menu" 
+               class="btn-large" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                Ordenar por WhatsApp
+            </a>
+            <p style="margin-top: 2rem; font-size: 1rem; opacity: 0.9;">
+                <i class="fas fa-motorcycle"></i> Entrega rápida a todo León
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3><i class="fas fa-pizza-slice"></i> Pizza Reyes</h3>
+                <p>La mejor pizza a domicilio en León, Nicaragua. 
+                   Ingredientes frescos, sabor auténtico y entrega rápida.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 1ra Calle NO, León</p>
+                <p><i class="fas fa-phone"></i> +505 XXXX XXXX</p>
+                <p><i class="fas fa-envelope"></i> info@pizzareyes.com</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Horarios</h3>
+                <p><i class="fas fa-clock"></i> Lunes a Domingo</p>
+                <p>5:00 AM - 10:00 PM</p>
+                <p style="margin-top: 1rem; color: var(--amarillo-queso);">
+                    <i class="fas fa-check-circle"></i> Abierto ahora
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <p><a href="#inicio">Inicio</a></p>
+                <p><a href="#menu">Menú</a></p>
+                <p><a href="#nosotros">Nosotros</a></p>
+                <p><a href="#ubicacion">Ubicación</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pizza Reyes. Todos los derechos reservados. | Hecho con <i class="fas fa-heart" style="color: var(--rojo-pizza);"></i> en León, Nicaragua</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#menu" 
+       class="whatsapp-float" target="_blank" title="Chatear por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
