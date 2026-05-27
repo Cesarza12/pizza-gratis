@@ -1,21 +1,4 @@
-
-
-
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag('js', new Date());
-
-  gtag('config', 'G-9JL2SBX6BK');
-</script>
-
-
-
-// Mobile Menu Toggle
+  // Mobile Menu Toggle
         function toggleMenu() {
             const navLinks = document.querySelector('.nav-links');
             navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
